@@ -9,7 +9,7 @@ const styles = {
 		gridTemplateRows: '6fr 1fr 6fr 1fr 6fr',
 	},
 	black: {
-		backgroundColor: '#000000',
+		backgroundColor: '#ADD8E6',
 		width: '100%',
 		height: '100%',
 	},
@@ -19,12 +19,12 @@ const styles = {
 		height: '100%',
 	},
 	red: {
-		backgroundColor: '#99292D',
+		backgroundColor: '#FF0000',
 		width: '100%',
 		height: '100%',
 	},
 	green: {
-		backgroundColor: '#31905F',
+		backgroundColor: '#ADD8E6',
 		width: '100%',
 		height: '100%',
 	},
