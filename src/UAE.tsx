@@ -16,12 +16,12 @@ const styles: { [key: string]: React.CSSProperties } = {
 		gridTemplateRows: '1fr 1fr 1fr',
 	},
 	red: {
-		backgroundColor: '#EF3340',
+		backgroundColor: '#000000',
 		width: '100%',
 		height: '100%',
 	},
 	green: {
-		backgroundColor: '#009739',
+		backgroundColor: '#ADD8E6',
 		width: '100%',
 		height: '100%',
 	},
@@ -31,7 +31,7 @@ const styles: { [key: string]: React.CSSProperties } = {
 		height: '100%',
 	},
 	black: {
-		backgroundColor: '#000000',
+		backgroundColor: '#ADD8E6',
 		width: '100%',
 		height: '100%',
 	},
@@ -52,7 +52,7 @@ export const UAE = () => {
 				from={-100}
 				to={0}
 			>
-				<div style={styles.red} />
+				<div style={styles.black} />
 			</AnimatedVerticalPosition>
 			<div style={styles.threeContainer}>
 				<AnimatedVerticalPosition
@@ -67,7 +67,7 @@ export const UAE = () => {
 					from={-100}
 					to={0}
 				>
-					<div style={styles.green} />
+					<div style={styles.blue} />
 				</AnimatedVerticalPosition>
 				<AnimatedHorizontalPosition
 					in={{
@@ -95,7 +95,7 @@ export const UAE = () => {
 					from={100}
 					to={0}
 				>
-					<div style={styles.black} />
+					<div style={styles.blue} />
 				</AnimatedVerticalPosition>
 			</div>
 		</div>
